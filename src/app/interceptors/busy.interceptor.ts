@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpInterceptor, HttpEvent, HttpHandler, HttpRequest } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { finalize, tap } from 'rxjs/operators';
-import { BusyService } from './busy.service';
+import { BusyService } from '../busy.service';
 
 
 export const prefixReq = '[HTTP Interceptor ⤴] -';
